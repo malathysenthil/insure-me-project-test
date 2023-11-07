@@ -14,8 +14,8 @@ import org.testng.annotations.AfterTest;
 public class ContactUsTest {
 	WebDriver driver;
   @Test
-  public void f() throws InterruptedException {
-	  driver.get("http://35.174.11.7:8081/index.html");
+  public void testContactUs() throws InterruptedException {
+	  driver.get("http://107.22.93.101:8081/index.html");
 		driver.findElement(By.xpath("//*[text()='Contact Us']")).click();
 		driver.findElement(By.id("inputName")).sendKeys("Malathy");
 		driver.findElement(By.id("inputNumber")).sendKeys("1111111111");
@@ -31,8 +31,10 @@ public class ContactUsTest {
   public void beforeTest() {
 	  WebDriverManager.chromedriver().setup();
 		ChromeOptions options= new ChromeOptions(); 
-//		options.setHeadless(true);
-//		options.addArguments("--headless");
+	//	options.setHeadless(true);
+		options.addArguments("--window-size=1920,1080");
+	    options.addArguments("--start-maximized");
+		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
   }
 

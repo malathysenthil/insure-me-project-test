@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T21:55:50 EST" name="Surefire suite" finished-at="2023-11-06T21:56:03 EST" duration-ms="12345">
+  <suite started-at="2023-11-07T09:59:35 EST" name="Surefire suite" finished-at="2023-11-07T09:59:45 EST" duration-ms="10641">
     <groups>
     </groups>
-    <test started-at="2023-11-06T21:55:50 EST" name="Surefire test" finished-at="2023-11-06T21:56:03 EST" duration-ms="12345">
+    <test started-at="2023-11-07T09:59:35 EST" name="Surefire test" finished-at="2023-11-07T09:59:45 EST" duration-ms="10641">
       <class name="test.ContactUsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-06T21:55:50 EST" name="beforeTest" finished-at="2023-11-06T21:55:53 EST" duration-ms="2622" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-07T09:59:35 EST" name="beforeTest" finished-at="2023-11-07T09:59:37 EST" duration-ms="2017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-06T21:55:53 EST" name="f" finished-at="2023-11-06T21:56:02 EST" duration-ms="9062" status="PASS">
+        <test-method signature="testContactUs()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-07T09:59:37 EST" name="testContactUs" finished-at="2023-11-07T09:59:45 EST" duration-ms="8459" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-06T21:56:02 EST" name="afterTest" finished-at="2023-11-06T21:56:03 EST" duration-ms="586" status="PASS">
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.ContactUsTest@45018215]" started-at="2023-11-07T09:59:45 EST" name="afterTest" finished-at="2023-11-07T09:59:45 EST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
