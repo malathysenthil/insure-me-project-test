@@ -9,7 +9,8 @@ public class ContactUsTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chromedriver", "/usr/bin/chromedriver.exe");
 		ChromeOptions options= new ChromeOptions(); 
 		options.addArguments("--window-size=1920,1080");
 	    options.addArguments("--start-maximized");
