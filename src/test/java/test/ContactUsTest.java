@@ -9,15 +9,15 @@ public class ContactUsTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-//		WebDriverManager.chromedriver().setup();
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		WebDriverManager.chromedriver().setup();
+//		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options= new ChromeOptions(); 
 		options.addArguments("--window-size=1920,1080");
 	    options.addArguments("--start-maximized");
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);
 
-		driver.get("http://52.200.58.160:8081/index.html");
+		driver.get("http://54.91.118.128:8081/index.html");
 		driver.findElement(By.xpath("//*[text()='Contact Us']")).click();
 		driver.findElement(By.id("inputName")).sendKeys("Malathy");
 		driver.findElement(By.id("inputNumber")).sendKeys("1111111111");
