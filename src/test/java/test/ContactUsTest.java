@@ -17,7 +17,7 @@ public class ContactUsTest {
 		options.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(options);
 
-		driver.get("http://107.22.93.101:8081/index.html");
+		driver.get("http://52.200.58.160:8081/index.html");
 		driver.findElement(By.xpath("//*[text()='Contact Us']")).click();
 		driver.findElement(By.id("inputName")).sendKeys("Malathy");
 		driver.findElement(By.id("inputNumber")).sendKeys("1111111111");
