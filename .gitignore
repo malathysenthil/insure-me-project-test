@@ -1,0 +1,6 @@
+*.class
+*.settings
+*.project
+/bin/
+/target/
+/test-output/
